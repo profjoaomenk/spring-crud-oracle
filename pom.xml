@@ -95,6 +95,11 @@
                     </excludes>
                 </configuration>
             </plugin>
+	   <plugin>
+	       <groupId>com.microsoft.azure</groupId>
+	       <artifactId>azure-webapp-maven-plugin</artifactId>
+	       <version>1.9.1</version>
+	   </plugin>
         </plugins>
     </build>
 
